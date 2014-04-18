@@ -11,14 +11,15 @@
         var $description;
         var $expDate;
         var $completionConfirmed; 
-        function __construct($wishMaker, $date, $title, $description, $expDate)
+        function __construct($wishMaker, $wishHelper, $date, $title, $description, $expDate, $status)
         {
             $this->wishMaker = $wishMaker;
+            $this->wishHelper = $wishHelper;
             $this->date = $date;
             $this->title = $title;
             $this->description = $description;
             $this->expDate = $expDate;
-            $this->completionConfirmed = false;
+            $this->completionConfirmed = $status;
         } 
 
         // getters
