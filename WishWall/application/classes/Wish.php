@@ -10,20 +10,15 @@
         var $title;
         var $description;
         var $expDate;
-        var $address;
-        var $city;
-        var $state;
         var $completionConfirmed; 
-        function __construct($wishMaker, $date, $title, $description
-            , $expDate, $address, $city, $state)
+        function __construct($wishMaker, $date, $title, $description, $expDate)
         {
             $this->wishMaker = $wishMaker;
             $this->date = $date;
             $this->title = $title;
             $this->description = $description;
             $this->expDate = $expDate;
-            $this->address = $address;
-            $this->state = $state;
+            $this->completionConfirmed = false;
         } 
 
         // getters
