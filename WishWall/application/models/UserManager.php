@@ -22,6 +22,7 @@ include '../classes/User.php';
         {
             if( is_null(self::$_instance )){
                 self::$_instance = new UserManager();
+                $_instance->load->database();
             }
             return self::$_instance;
         }
@@ -34,6 +35,25 @@ include '../classes/User.php';
             die('Clone is not allowed '. E_USER_ERROR );
         }
 
+        /*
+         *
+         */
+        public function logInWithUserNameAndPassword( $uname, $p )
+        {
+            $sqlS =
+                'SELECT UserID, Contribution
+                FROM Users WHERE UserName = ? AND Password = ?';
+            $query = $this->db->query($sql, array( $uname, $p ) );
+            if ( $query->num_rows() <= 0 )
+                return 0;
+
+            $results = $query->first_row();
+            $contri = $results->Contribution;
+            $uid = $result->UserID;
+            $this->$CurrentUser = UserModel($uname, $p, $contri, $uid);
+
+            return 1;
+        }
 
     }
 ?>
