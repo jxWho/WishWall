@@ -1,4 +1,4 @@
-WishWell
+WishWall
 ========
 
 CSCI45200
