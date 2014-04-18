@@ -1,11 +1,35 @@
 <?php
-    class Wish extends CI_Model
+    // singleton
+    class WishManager
     {
-        static $instances = 0;
-        function __construct()
+        private static $instances = 0;
+        private static $manager;
+        static public function getInstance()
         {
-            $instances++;   
-        } 
+            if(self::$instances == 0)// first instance
+            {
+                $manager = new WishManager();
+                self::$instances++;
+                echo "first";
+                return self::$manager;
+            }    
+            else
+            {
+                echo "duplicate";
+                return self::$manager;
+            }
+                
+        }
+        static public function getInstanceNumber()
+        {
+            return self::$instances;
+        }
+
+        // get all wishes from database, and return them after sorting
+        public function getAllWishes()
+        {
+
+        }
     }
 
 ?>
