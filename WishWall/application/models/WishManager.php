@@ -1,12 +1,13 @@
 <?php
+include "./application/Classes/Wish.php";
     // singleton
-    class WishManager
+    class WishManager extends CI_Model
     {
         private static $instances = 0;
         private static $manager;
-        private function __constructor()
+        public function __construct()
         {
-            ;
+            $this->load->database();
         }
         static public function getInstance()
         {
@@ -29,14 +30,13 @@
 
         // get all wishes from database, and return them after sorting
         public function getAllWishes()
-        {
-            $this->load->database();
+        {          
             // build query
             $query = $this->db->get('Wishes');
             $wishes = array();
-            foreach($query->result as $row)
+            foreach($query->result() as $row)
             {
-                $wishes[] = new Wish(new User($row->WishMaker), new User($row->WishHelper), 
+                $wishes[] = new Wish($row->WishMaker, $row->WishHelper, 
                     $row->Date, $row->Title, $row->Description, $row->ExpireDate, $row->Status);
             }
             // sort
@@ -45,7 +45,7 @@
                 $max = $i;
                 for($j = $i; $j < count($wishes); $j++)
                 {
-                    if($wishes[$j].getPriority() >= $wishes[$max].getPriority())
+                    if($wishes[$j]->getPriority() >= $wishes[$max]->getPriority())
                     {
                         $max = $j;
                     }
@@ -57,6 +57,23 @@
             }
 
             // return an array of wishes
+            return $wishes;
+        }
+        // get wishes according to given user id
+        public function getWishesFromId($id, $role)
+        {
+            $wishes = array();
+            // build query
+            if($role == "wishMaker")
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishMaker = '" . $id . "' ");
+            if($role == "wishHelper")
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishHelper = '" . $id . "' ");
+            $i = 0;
+            foreach($query->result() as $row)
+            {
+                $wishes[] = new Wish($row->WishMaker, $row->WishHelper, 
+                    $row->Date, $row->Title, $row->Description, $row->ExpireDate, $row->Status);
+            }
             return $wishes;
         }
     }

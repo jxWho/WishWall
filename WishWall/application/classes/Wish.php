@@ -1,16 +1,16 @@
 <?php
-    class Wish extends CI_Model
+    class Wish
     {
         // attributes :
         // wish maker, wish helper, date, title, description, expDate, 
         // address, city, state
-        var $wishMaker = new User();
-        var $wishHelper = new User();
-        var $date;
-        var $title;
-        var $description;
-        var $expDate;
-        var $completionConfirmed; 
+        private $wishMaker;
+        private $wishHelper;
+        private $date;
+        private $title;
+        private $description;
+        private $expDate;
+        private $completionConfirmed; 
         function __construct($wishMaker, $wishHelper, $date, $title, $description, $expDate, $status)
         {
             $this->wishMaker = $wishMaker;
@@ -25,7 +25,7 @@
         // getters
         public function __get($property)
         {
-            if($property_exists($this, $property))
+            if(property_exists($this, $property))
             {
                 return $this->$property;
             }
@@ -33,29 +33,30 @@
         // setters
         public function __set($property, $val)
         {
-            if($property_exists($this, $property))
+            if(property_exists($this, $property))
             {
                 $this->$property = $val;
             }
         }
         // calculate priority
-        public getPriority()
+        public function getPriority()
         {
             // formula: priority =  date_difference * 5 + user_contribution * 2
             $currentDate = date('Y-m-d', time());
             $currentDate = strtotime($currentDate);
-            $createDate = strtotime($date);
+            $createDate = strtotime($this->date);
             $date_difference = ($currentDate - $createDate) / 60 / 60 / 24;
+            return $date_difference * 5;
         }
         // assign a wish to certain wish helper with given user
-        public assignWish($user)
+        public function assignWish($user)
         {
             if(! $user instanceof User) // check if user is an object of User
                 return false;
             $wishHelper = $user;
         }
         // confirm completion
-        public confirmCompletion()
+        public function confirmCompletion()
         {
             if($user == null)
                 return false;

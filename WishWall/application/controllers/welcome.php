@@ -22,7 +22,12 @@ class Welcome extends CI_Controller {
 		// $this->load->view('welcome_message');
 		$this->load->model('WishManager');
 		$manager = WishManager::getInstance();
-		echo $manager->getInstanceNumber();
+		$wishes = $manager->getWishesFromId(1, 'wishMaker');
+		foreach($wishes as $row)
+		{
+			echo $row->title . '<br/>';
+			echo $row->wishMaker . '<br/>';
+		}
 	}
 }
 
