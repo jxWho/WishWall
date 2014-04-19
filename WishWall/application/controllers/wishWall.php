@@ -34,12 +34,14 @@ class WishWall extends CI_Controller {
 			$userInfo = $userManager->getUserInformationThroughID($wishes[$i]->wishHelper);
 			$wishes[$i]->wishHelper = $userInfo['UserName'];
 		}
-		$data['wishes'] = $wishes;
+		$header['title'] = 'wish wall';
+		$mainContent['wishes'] = $wishes;
 		// load views
-		$this->load->view('templates/wishwall/header.php');
-		$this->load->view('templates/wishwall/navigation.php');
-		$this->load->view('templates/wishwall/wishwall', $data);
-		$this->load->view('templates/wishwall/footer.php');
+		$this->load->view('templates/header.php',$header);
+		$this->load->view('templates/navigator.php');
+		$this->load->view('templates/mainContent.php', $mainContent);
+		$this->load->view('templates/profile');
+		$this->load->view('templates/footer.php');
 	}
 }
 

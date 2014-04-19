@@ -1,3 +1,7 @@
+<?php
+// include "./application/Classes/User.php";
+// include "./application/Classes/Wish.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
