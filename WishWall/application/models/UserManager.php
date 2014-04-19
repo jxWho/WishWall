@@ -91,7 +91,7 @@ include './application/classes/User.php';
             $resultUser = $this->getUserThroughID( $uid );
             return array(
                 'UserID' => $uid,
-                'UserName' => $resultUser-> UserName,
+                'UserName' => $resultUser->UserName,
                 'Contribution' => $resultUser->Contribution,
             );
         }
