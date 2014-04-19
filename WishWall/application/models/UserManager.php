@@ -1,5 +1,5 @@
 <?php
-    include '../classes/User.php';
+include './application/classes/User.php';
 
     class UserManager extends CI_Model
     {
@@ -11,7 +11,7 @@
          */
         public function __construct()
         {
-            die('UserManager is a singleton');
+            // die('UserManager is a singleton');
         }
 
         /*
@@ -22,12 +22,12 @@
         {
             if( is_null(self::$_instance )){
                 self::$_instance = new UserManager();
-                $_instance->load->database();
+                self::$_instance->load->database();
             }
 
             if( isset( $_SESSION['UID'] )
-                && !isset( $_instance->$CurrentUser) ){
-                    $_instance->getUserThroughID($_SESSION['UID']);
+                && !isset( self::$_instance->$CurrentUser) ){
+                    self::$_instance->getUserThroughID($_SESSION['UID']);
                 }
 
             return self::$_instance;
@@ -56,7 +56,7 @@
             $results = $query->first_row();
             $contri = $results->Contribution;
             $uid = $result->UserID;
-            $this->$CurrentUser = UserModel($uname, $p, $contri, $uid);
+            $this->$CurrentUser = new UserModel($uname, $p, $contri, $uid);
 
             $_SESSION['UID'] = $uid;
 
@@ -82,13 +82,13 @@
             $psswd = $result->Password;
             $contr = $result->Contribution;
 
-            $resultUser = UserModel($uname, $psswd, $contr, $uid);
+            $resultUser = new UserModel($uname, $psswd, $contr, $uid);
             return $resultUser;
         }
 
-        public function getUserImformationThroughID( $uid )
+        public function getUserInformationThroughID( $uid )
         {
-            $resultUser = getUserImformationThroughID( $uid );
+            $resultUser = $this->getUserThroughID( $uid );
             return array(
                 'UserID' => $uid,
                 'UserName' => $resultUser-> UserName,
