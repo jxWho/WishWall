@@ -19,13 +19,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		// $this->load->view('welcome_message');
 		$this->load->model('WishManager');
 		$manager = WishManager::getInstance();
-		$wishes = $manager->getAllWishes();
+		$wishes = $manager->getWishesFromId(1, 'wishMaker');
 		foreach($wishes as $row)
 		{
-			echo $row['title'] . '<br/>';
-			echo $row['description'] . '<br/>';
+			echo $row->title . '<br/>';
+			echo $row->wishMaker . '<br/>';
 		}
 	}
 }
