@@ -1,6 +1,6 @@
+<?php
 include '../classes/User.php';
 
-<?php
     class UserManager extends CI_Controller
     {
         private static $_instance = NULL;

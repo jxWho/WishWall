@@ -1,6 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+include "./application/Models/WishManager.php";
+include "./application/Models/UserManager.php";
+class WishWall extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,13 +21,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-
-		
-		$this->load->model('WishManager');
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
 		$wishes = $wishManager->getAllWishes();
-		$userManager = UserManager::get
 		$data['wishes'] = $wishes;
 		$this->load->view('wishWall', $data);
 	}
