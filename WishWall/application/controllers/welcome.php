@@ -19,15 +19,15 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		// $this->load->view('welcome_message');
+
+		
 		$this->load->model('WishManager');
-		$manager = WishManager::getInstance();
-		$wishes = $manager->getWishesFromId(1, 'wishMaker');
-		foreach($wishes as $row)
-		{
-			echo $row->title . '<br/>';
-			echo $row->wishMaker . '<br/>';
-		}
+		// prepare data sent to wish wall
+		$wishManager = WishManager::getInstance();
+		$wishes = $wishManager->getAllWishes();
+		$userManager = UserManager::get
+		$data['wishes'] = $wishes;
+		$this->load->view('wishWall', $data);
 	}
 }
 
