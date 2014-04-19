@@ -1,7 +1,7 @@
 <?php
 include "./application/classes/Wish.php";
     // singleton
-    class WishManager extends CI_Controller
+    class WishManager extends CI_Model
     {
         private static $instances = 0;
         private static $manager;

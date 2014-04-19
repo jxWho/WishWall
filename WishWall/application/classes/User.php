@@ -10,10 +10,10 @@
         //Contructor
         public function __construct($name, $password, $contrubution, $uid)
         {
-            $this->$UserName = $name;
-            $this->$Password = $password;
-            $this->$Contribution = $contrubution;
-            $this->$UserID = $uid;
+            $this->UserName = $name;
+            $this->Password = $password;
+            $this->Contribution = $contrubution;
+            $this->UserID = $uid;
         }
 
         //getter

@@ -1,7 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-include "./application/Models/WishManager.php";
-include "./application/Models/UserManager.php";
 class WishWall extends CI_Controller {
 
 	/**
@@ -21,11 +19,27 @@ class WishWall extends CI_Controller {
 	 */
 	public function index()
 	{
+		// load models
+		$this->load->model('UserManager');
+		$this->load->model('WishManager');
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
-		$wishes = $wishManager->getAllWishes();
+		$wishes = $wishManager->getAllWishes();	
+		// translate wish makers and helpers id into username
+		$userManager = UserManager::getUserManager();
+		for($i = 0; $i < count($wishes); $i++)
+		{
+			$userInfo = $userManager->getUserInformationThroughID($wishes[$i]->wishMaker);
+			$wishes[$i]->wishMaker = $userInfo['UserName'];
+			$userInfo = $userManager->getUserInformationThroughID($wishes[$i]->wishHelper);
+			$wishes[$i]->wishHelper = $userInfo['UserName'];
+		}
 		$data['wishes'] = $wishes;
-		$this->load->view('wishWall', $data);
+		// load views
+		$this->load->view('templates/wishwall/header.php');
+		$this->load->view('templates/wishwall/navigation.php');
+		$this->load->view('templates/wishwall/wishwall', $data);
+		$this->load->view('templates/wishwall/footer.php');
 	}
 }
 
