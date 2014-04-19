@@ -1,7 +1,7 @@
-include '../classes/User.php';
-
 <?php
-    class UserManager extends CI_Controller
+    include '../classes/User.php';
+
+    class UserManager extends CI_Model
     {
         private static $_instance = NULL;
         private $CurrentUser;
@@ -9,7 +9,7 @@ include '../classes/User.php';
         /*
          * Not allowed to use contructer
          */
-        private function __construct()
+        public function __construct()
         {
             die('UserManager is a singleton');
         }
@@ -24,6 +24,12 @@ include '../classes/User.php';
                 self::$_instance = new UserManager();
                 $_instance->load->database();
             }
+
+            if( isset( $_SESSION['UID'] )
+                && !isset( $_instance->$CurrentUser) ){
+                    $_instance->getUserThroughID($_SESSION['UID']);
+                }
+
             return self::$_instance;
         }
 
@@ -52,7 +58,42 @@ include '../classes/User.php';
             $uid = $result->UserID;
             $this->$CurrentUser = UserModel($uname, $p, $contri, $uid);
 
+            $_SESSION['UID'] = $uid;
+
             return 1;
+        }
+
+        /*
+         *
+         */
+        public function getUserThroughID( $uid )
+        {
+            $sql =
+                'SELECT UserName, Password, Contribution
+                 FROM Users
+                 WHERE UserID = ?
+                ';
+            $query = $this->db->query($sql, array( $uid ) );
+            if( $query->num_rows() <= 0)
+                return NULL;
+
+            $result = $query->first_row();
+            $uname = $result->UserName;
+            $psswd = $result->Password;
+            $contr = $result->Contribution;
+
+            $resultUser = UserModel($uname, $psswd, $contr, $uid);
+            return $resultUser;
+        }
+
+        public function getUserImformationThroughID( $uid )
+        {
+            $resultUser = getUserImformationThroughID( $uid );
+            return array(
+                'UserID' => $uid,
+                'UserName' => $resultUser-> UserName,
+                'Contribution' => $resultUser->Contribution,
+            );
         }
 
     }
