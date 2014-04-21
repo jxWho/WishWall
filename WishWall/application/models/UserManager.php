@@ -1,4 +1,6 @@
 <?php
+    if(!session_status() === PHP_SESSION_ACTIVE )
+        session_start();
 include './application/classes/User.php';
 
     class UserManager extends CI_Model
@@ -11,6 +13,7 @@ include './application/classes/User.php';
          */
         public function __construct()
         {
+            parent::__construct();
             // die('UserManager is a singleton');
         }
 
@@ -49,14 +52,13 @@ include './application/classes/User.php';
             $sqlS =
                 'SELECT UserID, Contribution
                 FROM Users WHERE UserName = ? AND Password = ?';
-            $query = $this->db->query($sql, array( $uname, $p ) );
+            $query = $this->db->query($sqlS, array( $uname, $p ) );
             if ( $query->num_rows() <= 0 )
                 return 0;
 
             $results = $query->first_row();
             $contri = $results->Contribution;
-            $uid = $result->UserID;
-            $this->$CurrentUser = new UserModel($uname, $p, $contri, $uid);
+            $uid = $results->UserID;
 
             $_SESSION['UID'] = $uid;
 

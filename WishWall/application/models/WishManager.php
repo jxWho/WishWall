@@ -16,12 +16,12 @@ include "./application/classes/Wish.php";
                 self::$manager = new WishManager();
                 self::$instances++;
                 return self::$manager;
-            }    
+            }
             else
             {
                 return self::$manager;
             }
-                
+
         }
         static public function getInstanceNumber()
         {
@@ -30,7 +30,7 @@ include "./application/classes/Wish.php";
 
         // get all wishes from database, and return them after sorting
         public function getAllWishes()
-        {          
+        {
             // build query
             $query = $this->db->get('Wishes');
             $wishes = array();
