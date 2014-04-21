@@ -9,9 +9,10 @@
     <title><?php echo $title ?> - WishWall</title>
 
     <?php $this->load->helper('url'); ?>
-    <link rel="stylesheet" type="text/css" href="
+
+        <link rel="stylesheet" type="text/css" href="
         <?php echo base_url();?>application/css/universal.css" >
 </head>
-<body>
+<body style="background: url(<?php echo base_url();?>/application/css/images/bg.jpg); ">
 <h1><?php echo $title ?></h1>
 
