@@ -1,8 +1,8 @@
 <div class="wishbox" >
-    <h3><?php echo $wish->title ?></h3>
+    <h3>xxx</h3>
     <p>
-        <?php echo $wish->description ?>
+        aaa
     </p>
-    <p><?echo $wish->wishMaker ?></p>
+    <p>xxx</p>
 </div>
 <hr>
