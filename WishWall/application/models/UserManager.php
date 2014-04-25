@@ -1,7 +1,7 @@
 <?php
-    if(!session_status() === PHP_SESSION_ACTIVE )
+    require_once './application/classes/User.php';
+    if( session_status() != PHP_SESSION_ACTIVE )
         session_start();
-include './application/classes/User.php';
 
     class UserManager extends CI_Model
     {
@@ -11,11 +11,6 @@ include './application/classes/User.php';
         /*
          * Not allowed to use contructer
          */
-        public function __construct()
-        {
-            parent::__construct();
-            // die('UserManager is a singleton');
-        }
 
         /*
          * factory method
@@ -27,11 +22,6 @@ include './application/classes/User.php';
                 self::$_instance = new UserManager();
                 self::$_instance->load->database();
             }
-
-            if( isset( $_SESSION['UID'] )
-                && !isset( self::$_instance->$CurrentUser) ){
-                    self::$_instance->getUserThroughID($_SESSION['UID']);
-                }
 
             return self::$_instance;
         }
@@ -96,6 +86,48 @@ include './application/classes/User.php';
                 'UserName' => $resultUser->UserName,
                 'Contribution' => $resultUser->Contribution,
             );
+        }
+
+        public function getInformationWithName( $username )
+        {
+            $query =
+                $this->db->get_where('Users', array('UserName' => $username));
+
+            $row = $query->num_rows();
+            if( $row == 1 ){
+                $re = $query->result_array()[0];
+                $name = $re['UserName'];
+                $password = $re['Password'];
+                $contr = $re['Contribution'];
+                $id = $re['UserID'];
+                $resultUser = new UserModel($name, $password, $contr, $id);
+                return $resultUser;
+            }
+           return NULL;
+        }
+
+        public function createUser( $uname, $passwd )
+        {
+            $data = array(
+                'UserName' => $uname,
+                'Password' => $passwd,
+                'Contribution' => 0
+            );
+            $result = $this->db->insert('Users', $data);
+            if( $result ){
+                $newUser = $this->getInformationWithName( $uname );
+
+                if( $newUser === NULL ){
+                    return -1;
+                }
+
+                $uid = $newUser->UserID;
+
+                return $uid;
+            }else{
+                //failed to Create
+                return -1;
+            }
         }
 
     }

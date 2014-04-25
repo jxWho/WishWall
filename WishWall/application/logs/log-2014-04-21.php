@@ -3192,3 +3192,761 @@ DEBUG - 2014-04-21 07:09:52 --> File loaded: application/views/logInPages/home.p
 DEBUG - 2014-04-21 07:09:52 --> File loaded: application/views/templates/footer.php
 DEBUG - 2014-04-21 07:09:52 --> Final output sent to browser
 DEBUG - 2014-04-21 07:09:52 --> Total execution time: 0.0157
+DEBUG - 2014-04-21 22:57:56 --> Config Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Hooks Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 22:57:56 --> URI Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Router Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> No URI present. Default controller set.
+DEBUG - 2014-04-21 22:57:56 --> Output Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Security Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Input Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 22:57:56 --> Language Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Loader Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Controller Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Model Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Model Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 22:57:56 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 22:57:56 --> Final output sent to browser
+DEBUG - 2014-04-21 22:57:56 --> Total execution time: 0.0607
+DEBUG - 2014-04-21 22:57:56 --> Config Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Hooks Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 22:57:56 --> URI Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Router Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> No URI present. Default controller set.
+DEBUG - 2014-04-21 22:57:56 --> Output Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Security Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Input Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 22:57:56 --> Language Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Loader Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Controller Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Model Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Model Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 22:57:56 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 22:57:56 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 22:57:56 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 22:57:56 --> Final output sent to browser
+DEBUG - 2014-04-21 22:57:56 --> Total execution time: 0.0276
+DEBUG - 2014-04-21 22:58:04 --> Config Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Hooks Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 22:58:04 --> URI Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Router Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Output Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Security Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Input Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 22:58:04 --> Language Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Loader Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Controller Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Model Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Model Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 22:58:04 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2014-04-21 22:58:04 --> Model Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Database Driver Class Initialized
+ERROR - 2014-04-21 22:58:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-21 22:58:04 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 22:58:04 --> Config Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Hooks Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 22:58:04 --> URI Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Router Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Output Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Security Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Input Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 22:58:04 --> Language Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Loader Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Controller Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Model Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Model Class Initialized
+DEBUG - 2014-04-21 22:58:04 --> Database Driver Class Initialized
+ERROR - 2014-04-21 22:58:04 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-21 22:58:04 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 22:58:04 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-21 22:58:04 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 22:58:04 --> Final output sent to browser
+DEBUG - 2014-04-21 22:58:04 --> Total execution time: 0.0369
+DEBUG - 2014-04-21 23:00:15 --> Config Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:00:15 --> URI Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Router Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Output Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Security Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Input Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:00:15 --> Language Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Model Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Model Class Initialized
+DEBUG - 2014-04-21 23:00:15 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:00:16 --> Config Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:00:16 --> URI Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Router Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Output Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Security Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Input Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:00:16 --> Language Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Model Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Model Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:00:16 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:00:16 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:00:16 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:00:16 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:00:16 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:00:16 --> Final output sent to browser
+DEBUG - 2014-04-21 23:00:16 --> Total execution time: 0.0238
+DEBUG - 2014-04-21 23:09:44 --> Config Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:09:44 --> URI Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Router Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Output Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Security Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Input Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:09:44 --> Language Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Model Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Model Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:09:44 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:09:44 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:09:44 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:09:44 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:09:44 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:09:44 --> Final output sent to browser
+DEBUG - 2014-04-21 23:09:44 --> Total execution time: 0.0317
+DEBUG - 2014-04-21 23:09:50 --> Config Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:09:50 --> URI Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Router Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Output Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Security Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Input Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:09:50 --> Language Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:09:50 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:09:50 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:09:50 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:09:50 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:09:50 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:09:50 --> Final output sent to browser
+DEBUG - 2014-04-21 23:09:50 --> Total execution time: 0.0203
+DEBUG - 2014-04-21 23:10:47 --> Config Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:10:47 --> URI Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Router Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Output Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Security Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Input Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:10:47 --> Language Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:10:47 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:10:47 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:10:47 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:10:47 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:10:47 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:10:47 --> Final output sent to browser
+DEBUG - 2014-04-21 23:10:47 --> Total execution time: 0.0235
+DEBUG - 2014-04-21 23:11:03 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:03 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:03 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:03 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:03 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:03 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:03 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:03 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:03 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:03 --> Total execution time: 0.0219
+DEBUG - 2014-04-21 23:11:04 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:04 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:04 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:04 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:04 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:04 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:04 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:04 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:04 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:04 --> Total execution time: 0.0207
+DEBUG - 2014-04-21 23:11:13 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:13 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:13 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:13 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:13 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:13 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:13 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:13 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:13 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:13 --> Total execution time: 0.0199
+DEBUG - 2014-04-21 23:11:14 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:14 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:14 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:14 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:14 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:14 --> Total execution time: 0.0218
+DEBUG - 2014-04-21 23:11:14 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:14 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:14 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:14 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:14 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:14 --> Total execution time: 0.0216
+DEBUG - 2014-04-21 23:11:14 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:14 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:14 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:14 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:14 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:14 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:14 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:14 --> Total execution time: 0.0167
+DEBUG - 2014-04-21 23:11:15 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:15 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:15 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:15 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:15 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:15 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:15 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:15 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:15 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:15 --> Total execution time: 0.0199
+DEBUG - 2014-04-21 23:11:22 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:22 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:22 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:22 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:22 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:22 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:22 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:22 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:22 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:22 --> Total execution time: 0.0201
+DEBUG - 2014-04-21 23:11:28 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:28 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:28 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:28 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:28 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:28 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:28 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:28 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:28 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:28 --> Total execution time: 0.0214
+DEBUG - 2014-04-21 23:11:35 --> Config Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:11:35 --> URI Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Router Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Output Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Security Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Input Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:11:35 --> Language Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Model Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:11:35 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:11:35 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:11:35 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:11:35 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:11:35 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:11:35 --> Final output sent to browser
+DEBUG - 2014-04-21 23:11:35 --> Total execution time: 0.0223
+DEBUG - 2014-04-21 23:12:38 --> Config Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:12:38 --> URI Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Router Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Output Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Security Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Input Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:12:38 --> Language Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Model Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Model Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:12:38 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:12:38 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:12:38 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:12:38 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:12:38 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:12:38 --> Final output sent to browser
+DEBUG - 2014-04-21 23:12:38 --> Total execution time: 0.0227
+DEBUG - 2014-04-21 23:12:39 --> Config Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:12:39 --> URI Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Router Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Output Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Security Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Input Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:12:39 --> Language Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:12:39 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:12:39 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:12:39 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:12:39 --> Final output sent to browser
+DEBUG - 2014-04-21 23:12:39 --> Total execution time: 0.0147
+DEBUG - 2014-04-21 23:12:43 --> Config Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:12:43 --> URI Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Router Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Output Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Security Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Input Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:12:43 --> Language Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Model Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Model Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:12:43 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:12:43 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:12:43 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:12:43 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:12:43 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:12:43 --> Final output sent to browser
+DEBUG - 2014-04-21 23:12:43 --> Total execution time: 0.0234
+DEBUG - 2014-04-21 23:24:04 --> Config Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:24:04 --> URI Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Router Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Output Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Security Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Input Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:24:04 --> Language Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:24:04 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:24:04 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:24:04 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:24:04 --> File loaded: application/views/logInPages/signUp.php
+DEBUG - 2014-04-21 23:24:04 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:24:04 --> Final output sent to browser
+DEBUG - 2014-04-21 23:24:04 --> Total execution time: 0.0175
+DEBUG - 2014-04-21 23:27:16 --> Config Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:27:16 --> URI Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Router Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Output Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Security Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Input Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:27:16 --> Language Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:27:16 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:27:16 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:27:16 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:27:16 --> File loaded: application/views/logInPages/signUp.php
+DEBUG - 2014-04-21 23:27:16 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:27:16 --> Final output sent to browser
+DEBUG - 2014-04-21 23:27:16 --> Total execution time: 0.0196
+DEBUG - 2014-04-21 23:27:25 --> Config Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:27:25 --> URI Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Router Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Output Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Security Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Input Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:27:25 --> Language Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:27:25 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:27:25 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:27:25 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:27:25 --> File loaded: application/views/logInPages/signUp.php
+DEBUG - 2014-04-21 23:27:25 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:27:25 --> Final output sent to browser
+DEBUG - 2014-04-21 23:27:25 --> Total execution time: 0.0202
+DEBUG - 2014-04-21 23:33:09 --> Config Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:33:09 --> URI Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Router Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Output Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Security Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Input Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:33:09 --> Language Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:33:09 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:33:09 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:33:09 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:33:09 --> File loaded: application/views/logInPages/signUp.php
+DEBUG - 2014-04-21 23:33:09 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:33:09 --> Final output sent to browser
+DEBUG - 2014-04-21 23:33:09 --> Total execution time: 0.0183
+DEBUG - 2014-04-21 23:33:45 --> Config Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:33:45 --> URI Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Router Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Output Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Security Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Input Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:33:45 --> Language Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:33:45 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:33:45 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:33:45 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:33:45 --> File loaded: application/views/logInPages/signUp.php
+DEBUG - 2014-04-21 23:33:45 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:33:45 --> Final output sent to browser
+DEBUG - 2014-04-21 23:33:45 --> Total execution time: 0.0220
+DEBUG - 2014-04-21 23:36:39 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:39 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:39 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Database Driver Class Initialized
+ERROR - 2014-04-21 23:36:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-21 23:36:39 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:39 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:39 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:39 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:36:39 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:36:39 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:39 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:36:39 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:36:39 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:36:39 --> Final output sent to browser
+DEBUG - 2014-04-21 23:36:39 --> Total execution time: 0.0165
+DEBUG - 2014-04-21 23:36:40 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:40 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> No URI present. Default controller set.
+DEBUG - 2014-04-21 23:36:40 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:40 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:36:40 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:36:40 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:40 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:36:40 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:36:40 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:36:40 --> Final output sent to browser
+DEBUG - 2014-04-21 23:36:40 --> Total execution time: 0.0169
+DEBUG - 2014-04-21 23:36:47 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:47 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:47 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:36:47 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2014-04-21 23:36:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Database Driver Class Initialized
+ERROR - 2014-04-21 23:36:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-21 23:36:47 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:47 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:47 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:47 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:47 --> Database Driver Class Initialized
+ERROR - 2014-04-21 23:36:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-21 23:36:47 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:36:47 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-21 23:36:47 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:36:47 --> Final output sent to browser
+DEBUG - 2014-04-21 23:36:47 --> Total execution time: 0.0256
+DEBUG - 2014-04-21 23:36:50 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:50 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:50 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:50 --> Config Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Hooks Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Utf8 Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> UTF-8 Support Enabled
+DEBUG - 2014-04-21 23:36:50 --> URI Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Router Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Output Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Security Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Input Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-21 23:36:50 --> Language Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Loader Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Controller Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Model Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Helper loaded: form_helper
+DEBUG - 2014-04-21 23:36:50 --> Form Validation Class Initialized
+DEBUG - 2014-04-21 23:36:50 --> Helper loaded: url_helper
+DEBUG - 2014-04-21 23:36:50 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-21 23:36:50 --> File loaded: application/views/logInPages/home.php
+DEBUG - 2014-04-21 23:36:50 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-21 23:36:50 --> Final output sent to browser
+DEBUG - 2014-04-21 23:36:50 --> Total execution time: 0.0166

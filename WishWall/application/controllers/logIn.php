@@ -9,9 +9,9 @@
         }
         public function index()
         {
-            if( isset($_SESSION['UID'])){
+            if( isset($_SESSION['UID']) && $_SESSION['UID']>0 ){
                 $this->load->helper('url');
-                redirect('Mypage/view');
+                redirect('MyPage/view');
             }
             $this->load->helper('form');
             $this->load->library('form_validation');

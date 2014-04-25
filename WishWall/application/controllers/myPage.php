@@ -1,5 +1,7 @@
 <?php
-    session_start();
+    if( session_status() != PHP_SESSION_ACTIVE )
+        session_start();
+
     class MyPage extends CI_Controller
     {
         public function __construct()
@@ -15,13 +17,18 @@
         }
         public function view( $page = 'myHome' )
         {
-            $UM = WishManager::getInstance();
+            $WM = WishManager::getInstance();
+            $UM = UserManager::getUserManager();
 
             $uid = $_SESSION['UID'];
 
+            //$currentUser = $UM->getInformationThroughID( $uid );
+
+            //$page.=" ".$currentUser['UserName'];
+            //echo $page;
             $data['title'] = ucfirst($page);
 
-            $data['wishes'] = $UM->getWishesFromId($uid, "wishMaker");
+            $data['wishes'] = $WM->getWishesFromId($uid, "wishMaker");
 
             $this->load->view('templates/header', $data);
             $this->load->view('logInPages/logout');
