@@ -1,8 +1,13 @@
-<div class="wishbox" >
-    <h3>xxx</h3>
+<div class="wishbox" id="11" >
+    <h3><?php echo $wish->wishMaker ?></h3>
+    <h3><?php echo $wish->titie ?></h3>
     <p>
-        aaa
+        <?php echo $wish->description ?>
     </p>
-    <p>xxx</p>
+    <button name="showWishDetails">↓</button>
+    <div name="wishDetails" style="display: none">
+    <p><?php echo $wish->date ?></p>
+    <button name="hideWishDetails">↑</button>
+    </div>
 </div>
 <hr>

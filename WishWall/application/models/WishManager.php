@@ -29,10 +29,10 @@ include "./application/classes/Wish.php";
         }
 
         // get all wishes from database, and return them after sorting
-        public function getAllWishes()
+        public function getAllWishes($num, $offset)
         {          
             // build query
-            $query = $this->db->get('Wishes');
+            $query = $this->db->get('Wishes', $num, $offset);
             $wishes = array();
             foreach($query->result() as $row)
             {
@@ -55,7 +55,6 @@ include "./application/classes/Wish.php";
                 $wishes[$i] = $wishes[$max];
                 $wishes[$max] = $temp;
             }
-
             // return an array of wishes
             return $wishes;
         }
@@ -75,6 +74,25 @@ include "./application/classes/Wish.php";
                     $row->Date, $row->Title, $row->Description, $row->ExpireDate, $row->Status);
             }
             return $wishes;
+        }
+
+        // create a new wish
+        // given: title, wish maker, description, expiration date
+        public function createNewWish($title, $wishMaker, $description, $expDate)
+        {
+            // date
+            $date = date("Y-m-d", time());
+            $data = array(
+                'Date' => $date , 
+                'Title' => $title ,
+                'Description' => $description ,
+                'ExpireDate' => $expDate ,
+                'WishMaker' => $wishMaker ,
+                'WishHelper' => $wishMaker ,
+                'Status' => 0
+            );
+
+            $this->db->insert('Wishes', $data); 
         }
     }
 

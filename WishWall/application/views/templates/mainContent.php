@@ -8,5 +8,6 @@
                 $this->load->view('templates/wishBox.php', $data);
             }
          ?>
+        <?php echo $this->pagination->create_links(); ?>
     </div>
 
