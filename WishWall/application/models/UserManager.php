@@ -1,5 +1,8 @@
 <?php
-include './application/classes/User.php';
+    require_once './application/classes/User.php';
+
+    if( session_status() != PHP_SESSION_ACTIVE )
+        session_start();
 
     class UserManager extends CI_Model
     {
@@ -9,10 +12,6 @@ include './application/classes/User.php';
         /*
          * Not allowed to use contructer
          */
-        public function __construct()
-        {
-            // die('UserManager is a singleton');
-        }
 
         /*
          * factory method
@@ -25,11 +24,6 @@ include './application/classes/User.php';
                 self::$_instance->load->database();
             }
 
-            if( isset( $_SESSION['UID'] )
-                && !isset( self::$_instance->$CurrentUser) ){
-                    self::$_instance->getUserThroughID($_SESSION['UID']);
-                }
-
             return self::$_instance;
         }
 
@@ -41,6 +35,16 @@ include './application/classes/User.php';
             die('Clone is not allowed '. E_USER_ERROR );
         }
 
+        public function __call( $name, $arguments )
+        {
+                echo ('No such method '.$name);
+        }
+
+        public static function __callStatic( $name, $arguments)
+        {
+            echo ('no such method '.$name);
+        }
+
         /*
          *
          */
@@ -49,14 +53,13 @@ include './application/classes/User.php';
             $sqlS =
                 'SELECT UserID, Contribution
                 FROM Users WHERE UserName = ? AND Password = ?';
-            $query = $this->db->query($sql, array( $uname, $p ) );
+            $query = $this->db->query($sqlS, array( $uname, $p ) );
             if ( $query->num_rows() <= 0 )
                 return 0;
 
             $results = $query->first_row();
             $contri = $results->Contribution;
-            $uid = $result->UserID;
-            $this->$CurrentUser = new UserModel($uname, $p, $contri, $uid);
+            $uid = $results->UserID;
 
             $_SESSION['UID'] = $uid;
 
@@ -68,12 +71,9 @@ include './application/classes/User.php';
          */
         public function getUserThroughID( $uid )
         {
-            $sql =
-                'SELECT UserName, Password, Contribution
-                 FROM Users
-                 WHERE UserID = ?
-                ';
-            $query = $this->db->query($sql, array( $uid ) );
+            $conditions = array("UserID" => $uid);
+            $query = $this->db->get_where('Users', $conditions);
+
             if( $query->num_rows() <= 0)
                 return NULL;
 
@@ -83,17 +83,51 @@ include './application/classes/User.php';
             $contr = $result->Contribution;
 
             $resultUser = new UserModel($uname, $psswd, $contr, $uid);
+
             return $resultUser;
         }
 
-        public function getUserInformationThroughID( $uid )
+
+        public function getInformationWithName( $username )
         {
-            $resultUser = $this->getUserThroughID( $uid );
-            return array(
-                'UserID' => $uid,
-                'UserName' => $resultUser->UserName,
-                'Contribution' => $resultUser->Contribution,
+            $query =
+                $this->db->get_where('Users', array('UserName' => $username));
+
+            $row = $query->num_rows();
+            if( $row == 1 ){
+                $re = $query->result_array()[0];
+                $name = $re['UserName'];
+                $password = $re['Password'];
+                $contr = $re['Contribution'];
+                $id = $re['UserID'];
+                $resultUser = new UserModel($name, $password, $contr, $id);
+                return $resultUser;
+            }
+           return NULL;
+        }
+
+        public function createUser( $uname, $passwd )
+        {
+            $data = array(
+                'UserName' => $uname,
+                'Password' => $passwd,
+                'Contribution' => 0
             );
+            $result = $this->db->insert('Users', $data);
+            if( $result ){
+                $newUser = $this->getInformationWithName( $uname );
+
+                if( $newUser === NULL ){
+                    return -1;
+                }
+
+                $uid = $newUser->UserID;
+
+                return $uid;
+            }else{
+                //failed to Create
+                return -1;
+            }
         }
 
     }

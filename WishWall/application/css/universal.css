@@ -1,4 +1,11 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:    border-box;
+  box-sizing:         border-box;
+}
+
 #nav{
+<<<<<<< HEAD
 
   float:left;
   width:15%;
@@ -23,13 +30,46 @@
   height: 100%;
   opacity: 0.9;
   background-color: #eeeeee;
+=======
+  border-style: solid;
+  border-color: gray;
+  width:200px;
+  height: 100%;
+  position: absolute;
+  left:80px;
+}
+
+#mainContent{
+  border-style: solid;
+  border-color: gray;
+  width:400px;
+  height: 100%;
+  margin: 0 auto;
+  left: 290px;
+  position: absolute;
+}
+
+#profile{
+  border-style: solid;
+  border-color: gray;
+  width:200px;
+  left: 700px;
+  margin-left: 2px;
+  height: 100%;
+  position: absolute;
+>>>>>>> master
 }
 
 #contentFather{
   width: 90%;
   height: 1000px;
+<<<<<<< HEAD
   margin-left: 5%;
   opacity: 0.9;
+=======
+  margin: 0 auto;
+  position: relative;
+>>>>>>> master
 }
 
 .clear{
