@@ -12,7 +12,7 @@
         // display help button only if the user is not the helper nor the maker
         if($wish->wishMaker != $_SESSION['userName'] && $wish->wishHelper != $_SESSION['userName'])// 2 as an example
         {
-            echo '<input type="button" name="help" onclick="help(\'<?php echo site_url() ?>\', this)" value="I can help" style="float: right;"></input><br/>';
+            echo '<input type="button" name="help" onclick="help(\'' . site_url() . '\', this)" value="I can help" style="float: right;"></input><br/>';
         }
         else if($wish->wishMaker == $_SESSION['userName'])
         {

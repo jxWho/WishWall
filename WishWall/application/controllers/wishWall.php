@@ -44,7 +44,10 @@ class WishWall extends CI_Controller {
 		$this->load->helper('url');
 
 	    $config['base_url'] = site_url('/WishWall/wall');
-	    $config['total_rows'] = $this->db->count_all('Wishes');
+	    $this->db->where('Status', '0');
+		$this->db->from('Wishes');
+		$total = $this->db->count_all_results();
+	    $config['total_rows'] = $total;
 	    $config['per_page'] = 3;
 	    $config['uri_segment'] = 3;
 
@@ -95,6 +98,7 @@ class WishWall extends CI_Controller {
 		$wishId = $this->input->post('wishId');
 		$wishManager = WishManager::getInstance();
 		$wishManager->help($wishId, $_SESSION['UID']);
+
 	}
 }
 

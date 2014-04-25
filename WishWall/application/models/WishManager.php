@@ -32,8 +32,7 @@ include "./application/classes/Wish.php";
         public function getAllWishes($num, $offset)
         {
             // build query
-            $this->db->where('Status', 0);
-            $query = $this->db->get('Wishes', $num, $offset);
+            $query = $this->db->get_where('Wishes', array('Status' => '0'), $num, $offset);
             $wishes = array();
             foreach($query->result() as $row)
             {
