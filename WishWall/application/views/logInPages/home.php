@@ -10,5 +10,8 @@
     <label for="Password">Password: </label>
     <input type="Password" name="Password" /><br>
 
-    <input type="submit" name="submit" valut="Log In" />
+    <input type="submit" name="SignIn" value="Sign In" />
 </form>
+
+<?php $this->load->helper('url') ?>
+<a href="<?php echo base_url()?>index.php/Register">Sign up</a>
