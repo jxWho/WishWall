@@ -1,5 +1,5 @@
 <div id="newWish">
-    <form method="post" >
+    <form method="post" action="<?php echo site_url() . '/WishWall/createNewWish' ?> ">
         <fieldset style="width: 500px;">
             <input name="newWishTitle"></input><br/>
             <textarea name="newWishDescription" style="width: 600px; height: 200px;"></textarea><br/>

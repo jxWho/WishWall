@@ -29,7 +29,7 @@ function help(siteUrl, buttonObj)
         data: {wishId: wishId},
         success: function(result)
         {
-            alert("Thank you!");
+            alert(result);
         }
     });
     
