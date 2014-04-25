@@ -25,7 +25,7 @@ class WishWall extends CI_Controller {
 		$this->load->model('UserManager');
 		$this->load->model('WishManager');
 	}
-	public function index()
+	public function wall()
 	{
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
@@ -33,13 +33,13 @@ class WishWall extends CI_Controller {
 		$this->load->library('pagination');
 		$this->load->helper('url');
 
-	    $config['base_url'] = site_url('/WishWall/index');
+	    $config['base_url'] = site_url('/WishWall/wall');
 	    $config['total_rows'] = $this->db->count_all('Wishes');
 	    $config['per_page'] = 3;
 	    $config['uri_segment'] = 3;
 
 	    $this->pagination->initialize($config);
-	    
+
 	    $wishes = $wishManager->getAllWishes($config['per_page'], $this->uri->segment(3));
 	    $mainContent['wishes'] = $wishes;	
 		// translate wish makers and helpers id into username
@@ -68,13 +68,23 @@ class WishWall extends CI_Controller {
 		$title = $this->input->post('newWishTitle');
 		$description = $this->input->post('newWishDescription');
 		$expDate = $this->input->post('newWishExpDate');
-
 		// enter data
+
 		$wishManager = WishManager::getInstance();
 		$wishManager->createNewWish($title, 1, $description, $expDate);
 
 		// refresh the wish wall
-		Header("Location: WishWall");
+		Header("Location:" . site_url() . "/WishWall");
+		
+	}
+
+	// decide to help
+	public function help()
+	{
+		// get wish id
+		$wishId = $this->input->post('wishId');
+		$wishManager = WishManager::getInstance();
+		$wishManager->help($wishId, 2);
 	}
 }
 

@@ -36,7 +36,7 @@ include "./application/classes/Wish.php";
             $wishes = array();
             foreach($query->result() as $row)
             {
-                $wishes[] = new Wish($row->WishMaker, $row->WishHelper, 
+                $wishes[] = new Wish($row->WishID, $row->WishMaker, $row->WishHelper, 
                     $row->Date, $row->Title, $row->Description, $row->ExpireDate, $row->Status);
             }
             // sort
@@ -70,7 +70,7 @@ include "./application/classes/Wish.php";
             $i = 0;
             foreach($query->result() as $row)
             {
-                $wishes[] = new Wish($row->WishMaker, $row->WishHelper, 
+                $wishes[] = new Wish($row->WishID, $row->WishMaker, $row->WishHelper, 
                     $row->Date, $row->Title, $row->Description, $row->ExpireDate, $row->Status);
             }
             return $wishes;
@@ -93,6 +93,18 @@ include "./application/classes/Wish.php";
             );
 
             $this->db->insert('Wishes', $data); 
+        }
+
+        // help with a wish
+        // given: wishId, helper 
+        public function help($wishId, $wishHelper)
+        {
+            $data = array(
+               'WishHelper' => $wishHelper,
+            );
+
+            $this->db->where('WishID', $wishId);
+            $this->db->update('Wishes', $data); 
         }
     }
 

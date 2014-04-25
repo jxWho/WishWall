@@ -17,3 +17,20 @@ function hideWishDetails()
     $(this).parent().hide();
     $(this).parent().parent().find('button[name="showWishDetails"]').show();
 }
+
+// decide to help with specified wish
+function help(siteUrl, buttonObj)
+{
+    // get wish Id
+    var wishId = $(buttonObj).parent().parent().find('input[name="wishId"]').val();
+    $.ajax({
+        url: siteUrl + '/WishWall/help',
+        type: 'POST',
+        data: {wishId: wishId},
+        success: function(result)
+        {
+            alert("Thank you!");
+        }
+    });
+    
+}

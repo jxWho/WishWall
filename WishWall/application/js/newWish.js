@@ -1,19 +1,39 @@
-$(document).ready(function(){
-    $('button[name="showWishDetails"]').click(showWishDetails);
-    $('button[name="hideWishDetails"]').click(hideWishDetails);
-});
-// show details of a wish as well as displaying upper arrow and hiding lower arrow
-function showWishDetails()
+function createNewWish(form)
 {
-    // show details
-    $(this).parent().find('div[name="wishDetails"]').show();
-    $(this).hide();
-}
-
-// hide details of a wish as well as displaying lower arrow 
-function hideWishDetails()
-{
-    // hide details
-    $(this).parent().hide();
-    $(this).parent().parent().find('button[name="showWishDetails"]').show();
+    // validations
+    var sign = true;
+    if($('input[name="newWishTitle"]').val() == "")// empty
+    {
+        alert("empty title");
+        sign = false;
+        $('input[name="newWishTitle"]').css('background-color', '#883344');
+    }
+    else
+    {
+        $('input[name="newWishTitle"]').css('background-color', 'white');
+    }
+    if($('textarea[name="newWishDescription"]').val() == "")// empty
+    {
+        alert("empty description");
+        sign = false;
+        $('textarea[name="newWishDescription"]').css('background-color', '#883344');
+    }
+    else
+    {
+        $('textarea[name="newWishDescription"]').css('background-color', 'white');
+    }
+    if($('input[name="newWishExpDate"]').val() == "")// empty
+    {
+        alert("empty expiration date");
+        sign = false;
+        $('input[name="newWishExpDate"]').css('background-color', '#883344');
+    }
+    else
+    {
+        $('input[name="newWishExpDate"]').css('background-color', 'white');
+    }
+    if(sign)
+        form.submit();
+    else
+        return false;
 }
