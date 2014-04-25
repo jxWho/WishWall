@@ -1,5 +1,6 @@
 <?php
     require_once './application/classes/User.php';
+
     if( session_status() != PHP_SESSION_ACTIVE )
         session_start();
 
@@ -34,6 +35,16 @@
             die('Clone is not allowed '. E_USER_ERROR );
         }
 
+        public function __call( $name, $arguments )
+        {
+                echo ('No such method '.$name);
+        }
+
+        public static function __callStatic( $name, $arguments)
+        {
+            echo ('no such method '.$name);
+        }
+
         /*
          *
          */
@@ -60,12 +71,9 @@
          */
         public function getUserThroughID( $uid )
         {
-            $sql =
-                'SELECT UserName, Password, Contribution
-                 FROM Users
-                 WHERE UserID = ?
-                ';
-            $query = $this->db->query($sql, array( $uid ) );
+            $conditions = array("UserID" => $uid);
+            $query = $this->db->get_where('Users', $conditions);
+
             if( $query->num_rows() <= 0)
                 return NULL;
 
@@ -75,18 +83,10 @@
             $contr = $result->Contribution;
 
             $resultUser = new UserModel($uname, $psswd, $contr, $uid);
+
             return $resultUser;
         }
 
-        public function getUserInformationThroughID( $uid )
-        {
-            $resultUser = $this->getUserThroughID( $uid );
-            return array(
-                'UserID' => $uid,
-                'UserName' => $resultUser->UserName,
-                'Contribution' => $resultUser->Contribution,
-            );
-        }
 
         public function getInformationWithName( $username )
         {

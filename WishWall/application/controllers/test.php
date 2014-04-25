@@ -13,12 +13,10 @@
 
         public function index()
         {
-            $a = new UserModel('god', '1', 0, 1);
-            echo $a->Password;
-            echo "end";
             $UM = UserManager::getUserManager();
-            $p = $UM->getInformationWithName( 'Ron' );
-            echo $p->Password;
+            $p = $UM->getUserThroughID( 1 );
+            echo $p->UserName;
+            $pp = $UM::getK();
         }
     }
 ?>

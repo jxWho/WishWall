@@ -1,5 +1,4 @@
 <?php
-    if( session_status() != PHP_SESSION_ACTIVE )
         session_start();
 
     class MyPage extends CI_Controller
@@ -15,17 +14,17 @@
                 redirect(base_url().'index.php/LogIn');
             }
         }
-        public function view( $page = 'myHome' )
+        public function view( $page = 'Home' )
         {
             $WM = WishManager::getInstance();
             $UM = UserManager::getUserManager();
 
             $uid = $_SESSION['UID'];
 
-            //$currentUser = $UM->getInformationThroughID( $uid );
+            $currentUser = $UM->getUserThroughID( $uid );
 
-            //$page.=" ".$currentUser['UserName'];
-            //echo $page;
+            $page="".$currentUser->UserName."'s ".$page;
+
             $data['title'] = ucfirst($page);
 
             $data['wishes'] = $WM->getWishesFromId($uid, "wishMaker");
