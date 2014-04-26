@@ -3,27 +3,22 @@
   -moz-box-sizing:    border-box;
   box-sizing:         border-box;
 }
-body {
-     scrollbar-face-color: #ededf3;
-     scrollbar-highlight-color: #ffffff;
-     scrollbar-shadow-color: #93949f;
-     scrollbar-3dlight-color: #ededf3;
-     scrollbar-arrow-color: #082468;
-     scrollbar-track-color: #f7f7f9;
-     scrollbar-darkshadow-color: #ededf3;
-     font-size: 9pt;
+body h3{
+     font-size: 10pt;
      color: #003366;
      overflow:auto;
 }
-td { font-size: 12px }
-th {
-     font-size: 12px;
+
+#contentFather
+{
+  min-height: 1000px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+
 }
-
 #nav{
-
-  float:left;
-  height: 1500px;
+  height: 100%;
   width: 200px;
   margin-right: 1px;
   background: #fceca9;
@@ -33,8 +28,7 @@ th {
 }
 
 #wallHeader{
-  float:left;
-  height: 1500px;
+  height: 100%;
   width: 650px;
   opacity: 0.9;
   background-color: #eeeeee;
@@ -44,25 +38,32 @@ th {
 }
 
 #profile{
-  float:left;
   margin-left: 1px;
-  height: 1500px;
+  height: 100%;
   opacity: 0.9;
   background-color: #eeeeee;
   width:200px;
   height: 100%;
   position: absolute;
-  left:655px;
+  left:910px;
   top: 0px;
 }
 
 #mainContent{
   width: 625px;
-  height: 100%;
+  height: auto;
   margin: 0 auto;
   position: absolute;
+  white-space: nowrap;
+  align-text: center;
+  height: 650px;
+  overflow: scroll; 
 }
 
+::-webkit-scrollbar
+{
+  display: none;
+}
 
 
 .clear{

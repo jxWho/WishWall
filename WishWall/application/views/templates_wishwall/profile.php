@@ -1,5 +1,5 @@
     <div id="profile" >
-        <h3>This is profile</h3>
+        <h3 style="text-align: center;">Profile</h3>
         <hr>
     </div>
     <div class="clear">

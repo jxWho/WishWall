@@ -1,1 +1,1 @@
-<div id="wallfooter">
+</div>

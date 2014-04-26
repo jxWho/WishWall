@@ -1,5 +1,5 @@
-<div id="mainContent">
-    <h3>This is main content</h3>
+<div id="mainContent" >
+    <h3 style="text-align: center;">Wish Wall</h3>
     <hr>
     <?php
         for($i = 0; $i < count($wishes); $i++)
