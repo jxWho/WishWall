@@ -54,10 +54,9 @@ body h3{
   height: auto;
   margin: 0 auto;
   position: absolute;
-  white-space: nowrap;
   align-text: center;
   height: 650px;
-  overflow: scroll; 
+  overflow-y: scroll; 
 }
 
 ::-webkit-scrollbar

@@ -4,7 +4,7 @@ function createNewWish(form)
     var sign = true;
     if($('input[name="newWishTitle"]').val() == "")
     {
-        $('input[name="newWishTitle"]').css('background-color', '#882233');
+        $('input[name="newWishTitle"]').css('background-color', '#ff8888');
         sign = false;
     }
     else
@@ -13,7 +13,7 @@ function createNewWish(form)
     }
     if($('textarea[name="newWishDescription"]').val() == "")
     {
-        $('textarea[name="newWishDescription"]').css('background-color', '#882233');
+        $('textarea[name="newWishDescription"]').css('background-color', '#ff8888');
         sign = false;
     }
     else
@@ -22,7 +22,7 @@ function createNewWish(form)
     }
     if($('input[name="newWishExpDate"]').val() == "")
     {
-        $('input[name="newWishExpDate"]').css('background-color', '#882233');
+        $('input[name="newWishExpDate"]').css('background-color', '#ff8888');
         sign = false;
     }
     else
