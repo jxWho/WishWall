@@ -4,6 +4,7 @@
         // attributes :
         // wish maker, wish helper, date, title, description, expDate, 
         // address, city, state
+        private $wishId;
         private $wishMaker;
         private $wishHelper;
         private $date;
@@ -11,8 +12,9 @@
         private $description;
         private $expDate;
         private $completionConfirmed; 
-        function __construct($wishMaker, $wishHelper, $date, $title, $description, $expDate, $status)
+        function __construct($wishId, $wishMaker, $wishHelper, $date, $title, $description, $expDate, $status)
         {
+            $this->wishId = $wishId;
             $this->wishMaker = $wishMaker;
             $this->wishHelper = $wishHelper;
             $this->date = $date;

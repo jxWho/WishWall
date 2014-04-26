@@ -1,6 +1,7 @@
 <div id="contentFather">
     <div id="nav">
-        <h3>This is navgiator</h3>
+        <h3>This is navigator</h3>
+        <label>xxx</label>
         <hr>
     </div>
 
