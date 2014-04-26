@@ -38,7 +38,7 @@ class WishWall extends CI_Controller {
 	    $this->db->where('Status', '0');
 	    $this->db->from('Wishes');
 	    $config['total_rows'] = $this->db->count_all_results();
-	    $config['per_page'] = 3;
+	    $config['per_page'] = 5;
 	    $config['uri_segment'] = 3;
 
 	    $this->pagination->initialize($config);
