@@ -50,11 +50,13 @@
             $links = array();
             $links[] = array(
                 current_url(),
-                "Wishes I make"
+                "Wishes I make",
+                0
             );
             $links[] = array(
                 current_url().'?help=1',
-                "Wishes I help"
+                "Wishes I help",
+                1
             );
 
             $data['links'] = $links;

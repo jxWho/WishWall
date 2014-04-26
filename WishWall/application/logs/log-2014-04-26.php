@@ -6643,3 +6643,293 @@ DEBUG - 2014-04-26 04:25:31 --> File loaded: application/views/templates/profile
 DEBUG - 2014-04-26 04:25:31 --> File loaded: application/views/templates/footer.php
 DEBUG - 2014-04-26 04:25:31 --> Final output sent to browser
 DEBUG - 2014-04-26 04:25:31 --> Total execution time: 0.0267
+DEBUG - 2014-04-26 05:01:26 --> Config Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:01:26 --> URI Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Router Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Output Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Security Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Input Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:01:26 --> Language Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:01:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:01:26 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:26 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:01:26 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:01:26 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:01:26 --> Final output sent to browser
+DEBUG - 2014-04-26 05:01:26 --> Total execution time: 0.0470
+DEBUG - 2014-04-26 05:01:28 --> Config Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:01:28 --> URI Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Router Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Output Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Security Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Input Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:01:28 --> Language Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:01:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:01:28 --> Model Class Initialized
+DEBUG - 2014-04-26 05:01:28 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:01:28 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:01:28 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:01:28 --> Final output sent to browser
+DEBUG - 2014-04-26 05:01:28 --> Total execution time: 0.0304
+DEBUG - 2014-04-26 05:10:29 --> Config Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:10:29 --> URI Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Router Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Output Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Security Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Input Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:10:29 --> Language Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:10:29 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:10:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:29 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:10:29 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:10:29 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:10:29 --> Final output sent to browser
+DEBUG - 2014-04-26 05:10:29 --> Total execution time: 0.0244
+DEBUG - 2014-04-26 05:10:31 --> Config Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:10:31 --> URI Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Router Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Output Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Security Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Input Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:10:31 --> Language Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:10:31 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:10:31 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:31 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:10:31 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:10:31 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:10:31 --> Final output sent to browser
+DEBUG - 2014-04-26 05:10:31 --> Total execution time: 0.0254
+DEBUG - 2014-04-26 05:10:33 --> Config Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:10:33 --> URI Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Router Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Output Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Security Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Input Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:10:33 --> Language Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:10:33 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:10:33 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:33 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:10:33 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:10:33 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:10:33 --> Final output sent to browser
+DEBUG - 2014-04-26 05:10:33 --> Total execution time: 0.0243
+DEBUG - 2014-04-26 05:10:35 --> Config Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:10:35 --> URI Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Router Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Output Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Security Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Input Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:10:35 --> Language Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:10:35 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:10:35 --> Model Class Initialized
+DEBUG - 2014-04-26 05:10:35 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:10:35 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:10:35 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:10:35 --> Final output sent to browser
+DEBUG - 2014-04-26 05:10:35 --> Total execution time: 0.0241
+DEBUG - 2014-04-26 05:17:29 --> Config Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:17:29 --> URI Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Router Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Output Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Security Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Input Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:17:29 --> Language Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:17:29 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:17:29 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:29 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:17:29 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:17:29 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:17:29 --> Final output sent to browser
+DEBUG - 2014-04-26 05:17:29 --> Total execution time: 0.0428
+DEBUG - 2014-04-26 05:17:48 --> Config Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:17:48 --> URI Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Router Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Output Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Security Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Input Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:17:48 --> Language Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:17:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:17:48 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:48 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:17:48 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:17:48 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:17:48 --> Final output sent to browser
+DEBUG - 2014-04-26 05:17:48 --> Total execution time: 0.0289
+DEBUG - 2014-04-26 05:17:52 --> Config Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:17:52 --> URI Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Router Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Output Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Security Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Input Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:17:52 --> Language Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:17:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:17:52 --> Model Class Initialized
+DEBUG - 2014-04-26 05:17:52 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:17:52 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:17:52 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:17:52 --> Final output sent to browser
+DEBUG - 2014-04-26 05:17:52 --> Total execution time: 0.0259
+DEBUG - 2014-04-26 05:18:02 --> Config Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Hooks Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 05:18:02 --> URI Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Router Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Output Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Security Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Input Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 05:18:02 --> Language Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Loader Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Controller Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Model Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Model Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Database Driver Class Initialized
+ERROR - 2014-04-26 05:18:02 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 05:18:02 --> Model Class Initialized
+DEBUG - 2014-04-26 05:18:02 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 05:18:02 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 05:18:02 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 05:18:02 --> Final output sent to browser
+DEBUG - 2014-04-26 05:18:02 --> Total execution time: 0.0241
