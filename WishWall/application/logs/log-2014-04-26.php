@@ -7194,3 +7194,32 @@ DEBUG - 2014-04-26 06:03:50 --> File loaded: application/views/templates/profile
 DEBUG - 2014-04-26 06:03:50 --> File loaded: application/views/templates/footer.php
 DEBUG - 2014-04-26 06:03:50 --> Final output sent to browser
 DEBUG - 2014-04-26 06:03:50 --> Total execution time: 0.0436
+DEBUG - 2014-04-26 06:06:25 --> Config Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Hooks Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Utf8 Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> UTF-8 Support Enabled
+DEBUG - 2014-04-26 06:06:25 --> URI Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Router Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Output Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Security Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Input Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-26 06:06:25 --> Language Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Loader Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Controller Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Model Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Model Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Database Driver Class Initialized
+ERROR - 2014-04-26 06:06:25 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-26 06:06:25 --> Model Class Initialized
+DEBUG - 2014-04-26 06:06:25 --> Helper loaded: url_helper
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-26 06:06:25 --> Helper loaded: form_helper
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-26 06:06:25 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-26 06:06:25 --> Final output sent to browser
+DEBUG - 2014-04-26 06:06:25 --> Total execution time: 0.0282
