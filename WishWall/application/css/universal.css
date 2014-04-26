@@ -10,36 +10,36 @@
   width:200px;
   height: 100%;
   position: absolute;
-  left:80px;
 }
 
 #mainContent{
   border-style: solid;
   border-color: gray;
-  width:400px;
+  width:600px;
   height: 100%;
   margin: 0 auto;
-  left: 290px;
   position: absolute;
+  left: 200px;
 }
 
 #profile{
   border-style: solid;
   border-color: gray;
   width:200px;
-  left: 700px;
   margin-left: 2px;
   height: 100%;
   position: absolute;
+  left:800px;
 }
 
 #contentFather{
   border-style: None;
   border-color: gray;
-  width: 90%;
+  width: 10000px;
   height: 1000px;
-  margin: 0 auto;
+  margin: 0  auto;
   position: relative;
+  left: 200px;
 }
 
 .clear{
