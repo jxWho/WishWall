@@ -41,8 +41,13 @@
 
             if( $helpOrmake == 0 ){
                 $data['wishes'] = $wishesMake;
+                $data['wishesForCard'] =
+                    $WM->getWishesFromID($uid, "wishMaker");
+
             }else{
                 $data['wishes'] = $wishesHelp;
+                $data['wishesForCard'] =
+                    $WM->getWishesFromID($uid, "wishHelper");
             }
 
 
@@ -58,6 +63,16 @@
                 "Wishes I help",
                 1
             );
+
+
+            foreach( $data['wishes'] as $eachWish ){
+                $tempID = $eachWish->wishMaker;
+                $eachWish->wishMaker =
+                    $UM->getUserThroughID( $tempID )->UserName;
+                $tempID = $eachWish->wishHelper;
+                $eachWish->wishHelper =
+                    $UM->getUserThroughID( $tempID )->UserName;
+            }
 
             $data['links'] = $links;
 

@@ -81,8 +81,20 @@
             $uname = $result->UserName;
             $psswd = $result->Password;
             $contr = $result->Contribution;
+            $address = $result->Address;
+            $email = $result->Email;
+            $pnumber = $result->PhoneNumber;
 
-            $resultUser = new UserModel($uname, $psswd, $contr, $uid);
+            $resultUser =
+                new UserModel(
+                            $uname,
+                            $psswd,
+                            $contr,
+                            $uid,
+                            $address,
+                            $email,
+                            $pnumber
+                        );
 
             return $resultUser;
         }

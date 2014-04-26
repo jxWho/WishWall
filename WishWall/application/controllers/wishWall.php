@@ -30,7 +30,7 @@ class WishWall extends CI_Controller {
 	{
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
-		
+
 		$this->load->library('pagination');
 		$this->load->helper('url');
 
@@ -42,7 +42,7 @@ class WishWall extends CI_Controller {
 	    $config['uri_segment'] = 3;
 
 	    $this->pagination->initialize($config);
-	    
+
 	    $wishes = $wishManager->getAllWishes($config['per_page'], $this->uri->segment(3));
 	    $mainContent['wishes'] = $wishes;	
 		// translate wish makers and helpers id into username

@@ -28,5 +28,40 @@
 
         <button name="hideWishDetails">↑</button>
     </div>
+
+    <div class="helperLink" >
+    <?php
+        $helpOrmake = $this->input->get('help', 0);
+        if( $helpOrmake == 0 ){
+            $temp = '<a class="boxSign" href="">Wish Helper</a>';
+            if( $wishCard->wishHelper != NULL ){
+                echo $temp;
+                $uid = $wishCard->wishHelper;
+                $this->load->model('UserManager');
+                $UM = UserManager::getUserManager();
+                $helper = $UM->getUserThroughID( $uid );
+                $this->load->view('templates/userInformationCard',
+                            array("WhelperOrMaker" => $helper )
+                );
+            }else{
+                echo "<div>No helper</div>";
+            }
+        }else{
+            $temp = '<a class="boxSign" href="">Wish Maker</a>';
+            if( $wishCard->wishMaker != NULL ){
+                echo $temp;
+                $uid = $wishCard->wishMaker;
+                $this->load->model('UserManager');
+                $UM = UserManager::getUserManager();
+                $maker = $UM->getUserThroughID( $uid );
+                $this->load->view('templates/userInformationCard',
+                    array("WhelperOrMaker" => $maker)
+                );
+            }else{
+                echo "<div>No Maker</div>";
+            }
+        }
+    ?>
+    </div>
 </div>
 <hr>

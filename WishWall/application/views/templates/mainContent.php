@@ -5,6 +5,7 @@
             for($i = 0; $i < count($wishes); $i++)
             {
                 $data['wish'] = $wishes[$i];
+                $data['wishCard'] = $wishesForCard[$i];
                 $this->load->view('templates/wishBox.php', $data);
             }
          ?>

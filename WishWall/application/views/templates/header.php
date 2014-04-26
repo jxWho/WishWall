@@ -15,6 +15,7 @@
         <script type="text/javascript" src="<?php echo base_url();?>application/js/jquery.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>application/js/wishDetails.js"></script>
         <script type="text/javascript" src="<?php echo base_url();?>application/js/newWish.js"></script>
+        <script src="<?php echo base_url('application/js/informationCard.js')?>"></script>
 </head>
 <body style="background: url(<?php echo base_url();?>/application/css/images/bg.jpg); ">
 <h1><?php echo $title ?></h1>

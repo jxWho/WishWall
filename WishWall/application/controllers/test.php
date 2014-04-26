@@ -14,9 +14,8 @@
         public function index()
         {
             $UM = UserManager::getUserManager();
-            $p = $UM->getUserThroughID( 1 );
-            echo $p->UserName;
-            $pp = $UM::getK();
+            $p = $UM->getUserThroughID( 2 );
+            print_r($p);
         }
     }
 ?>
