@@ -1,7 +1,5 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-
-	session_start();
-
+session_start();
 class WishWall extends CI_Controller {
 
 	/**
@@ -19,24 +17,17 @@ class WishWall extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	private $wishManager, $userManager;
+	private $wishManager;
 	public function __construct()
 	{
 		parent::__construct();
 		// load models
 		$this->load->model('UserManager');
 		$this->load->model('WishManager');
+		$this->load->helper('url');
 	}
 	public function wall()
 	{
-		// verify user
-		if(isset($_SESSION['UID']))
-		{
-			// set username
-			$userManager = UserManager::getUserManager(); 
-			$username = $userManager->getUserThroughID($_SESSION['UID'])->UserName;
-			$_SESSION['userName'] = $username;
-		}
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
 		
@@ -45,14 +36,13 @@ class WishWall extends CI_Controller {
 
 	    $config['base_url'] = site_url('/WishWall/wall');
 	    $this->db->where('Status', '0');
-		$this->db->from('Wishes');
-		$total = $this->db->count_all_results();
-	    $config['total_rows'] = $total;
+	    $this->db->from('Wishes');
+	    $config['total_rows'] = $this->db->count_all_results();
 	    $config['per_page'] = 3;
 	    $config['uri_segment'] = 3;
 
 	    $this->pagination->initialize($config);
-
+	    
 	    $wishes = $wishManager->getAllWishes($config['per_page'], $this->uri->segment(3));
 	    $mainContent['wishes'] = $wishes;	
 		// translate wish makers and helpers id into username
@@ -66,12 +56,14 @@ class WishWall extends CI_Controller {
 		}
 		$header['title'] = 'wish wall';
 		// load views
-		$this->load->view('templates/header.php',$header);
-		$this->load->view('templates/navigator.php');
-		$this->load->view('templates/newWish.php');
-		$this->load->view('templates/mainContent.php', $mainContent);
-		$this->load->view('templates/profile');
-		$this->load->view('templates/footer.php');
+		$this->load->view('templates_wishwall/header.php',$header);
+		$this->load->view('templates_wishwall/navigator.php');
+		$this->load->view('templates_wishwall/wallHeader.php');
+		$this->load->view('templates_wishwall/newWish.php');
+		$this->load->view('templates_wishwall/mainContent.php', $mainContent);
+		$this->load->view('templates_wishwall/wallFooter.php');
+		$this->load->view('templates_wishwall/profile');
+		$this->load->view('templates_wishwall/footer.php');
 	}
 	// creates new wish
 	// given: $title, $description, $expDate
@@ -81,24 +73,23 @@ class WishWall extends CI_Controller {
 		$title = $this->input->post('newWishTitle');
 		$description = $this->input->post('newWishDescription');
 		$expDate = $this->input->post('newWishExpDate');
-		// enter data
 
+		// enter data
 		$wishManager = WishManager::getInstance();
-		$wishManager->createNewWish($title, $_SESSION['UID'], $description, $expDate);
+		$wishManager->createNewWish($title, 1, $description, $expDate);
 
 		// refresh the wish wall
-		Header("Location:" . site_url() . "/WishWall");
-		
+		Header("Location:" . site_url() . '/Wishwall/wall');
 	}
-
-	// decide to help
+	// help with certain wish
 	public function help()
 	{
-		// get wish id
+		// get post values
 		$wishId = $this->input->post('wishId');
+
+		// enter data
 		$wishManager = WishManager::getInstance();
 		$wishManager->help($wishId, $_SESSION['UID']);
-
 	}
 }
 

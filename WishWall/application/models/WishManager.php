@@ -30,7 +30,7 @@ include "./application/classes/Wish.php";
 
         // get all wishes from database, and return them after sorting
         public function getAllWishes($num, $offset)
-        {
+        {          
             // build query
             $query = $this->db->get_where('Wishes', array('Status' => '0'), $num, $offset);
             $wishes = array();
@@ -91,22 +91,20 @@ include "./application/classes/Wish.php";
                 'WishHelper' => $wishMaker ,
                 'Status' => 0
             );
+
             $this->db->insert('Wishes', $data); 
-            echo "hello";
         }
 
-        // help with a wish
-        // given: wishId, helper 
+        // help with certain wish
+        // given: wishId, wish helper
         public function help($wishId, $wishHelper)
         {
             $data = array(
                'WishHelper' => $wishHelper,
-               'Status' => 1
+               'Status' => '1'
             );
-
             $this->db->where('WishID', $wishId);
             $this->db->update('Wishes', $data); 
-
         }
     }
 

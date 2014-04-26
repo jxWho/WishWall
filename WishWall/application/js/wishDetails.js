@@ -6,22 +6,22 @@ $(document).ready(function(){
 function showWishDetails()
 {
     // show details
-    $(this).parent().find('div[name="wishDetails"]').show();
-    $(this).hide();
+    $(this).parent().find('div[name="wishDetails"]').show('slow');
+    $(this).hide('slow');
 }
 
 // hide details of a wish as well as displaying lower arrow 
 function hideWishDetails()
 {
     // hide details
-    $(this).parent().hide();
-    $(this).parent().parent().find('button[name="showWishDetails"]').show();
+    $(this).parent().hide('slow');
+    $(this).parent().parent().find('button[name="showWishDetails"]').show('slow');
 }
 
-// decide to help with specified wish
+// helps with certain function
 function help(siteUrl, buttonObj)
 {
-    // get wish Id
+    // get the wish id
     var wishId = $(buttonObj).parent().parent().find('input[name="wishId"]').val();
     $.ajax({
         url: siteUrl + '/WishWall/help',
@@ -32,4 +32,5 @@ function help(siteUrl, buttonObj)
             alert("Thank you!");
         }
     });
+    
 }
