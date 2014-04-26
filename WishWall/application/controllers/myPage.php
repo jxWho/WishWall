@@ -12,6 +12,13 @@
             if( !isset( $_SESSION['UID'])){
                 $this->load->helper('url');
                 redirect(base_url().'index.php/LogIn');
+            }else{
+                if( !isset( $_SESSION['userName'] ) ){
+                    $UM = UserManager::getUserManager();
+                    $currentUser = $UM->getUserThroughID( $_SESSION['UID']);
+                    $_SESSION['userName'] = $currentUser->UserName;
+
+                }
             }
         }
         public function view( $page = 'Home' )
@@ -25,13 +32,19 @@
             $data['title'] = ucfirst($page);
 
             $helpOrmake = $this->input->get('help', 0);
+
+            $wishesMake = $WM->getWishesFromID($uid, "wishMaker");
+            $wishesHelp = $WM->getWishesFromID($uid, "wishHelper");
+            $data['wishesHelp'] = count( $wishesHelp );
+            $data['wishesMake'] = count( $wishesMake );
+            $data['userName'] = $_SESSION['userName'];
+
             if( $helpOrmake == 0 ){
-                $helpOrmake = "wishMaker";
+                $data['wishes'] = $wishesMake;
             }else{
-                $helpOrmake = "wishHelper";
+                $data['wishes'] = $wishesHelp;
             }
 
-            $data['wishes'] = $WM->getWishesFromId($uid, $helpOrmake);
 
             $this->load->helper('url');
             $links = array();
