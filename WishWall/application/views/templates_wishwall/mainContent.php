@@ -5,7 +5,7 @@
             for($i = 0; $i < count($wishes); $i++)
             {
                 $data['wish'] = $wishes[$i];
-                $this->load->view('templates/wishBox.php', $data);
+                $this->load->view('templates_wishwall/wishBox.php', $data);
             }
          ?>
         <?php echo $this->pagination->create_links(); ?>
