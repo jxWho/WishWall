@@ -64,9 +64,9 @@ require_once "./application/classes/Wish.php";
             $wishes = array();
             // build query
             if($role == "wishMaker")
-                $query = $this->db->query("SELECT * FROM Wishes WHERE WishMaker = '" . $id . "' ");
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishMaker = '" . $id . "' AND Status = '1'");
             if($role == "wishHelper")
-                $query = $this->db->query("SELECT * FROM Wishes WHERE WishHelper = '" . $id . "' ");
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishHelper = '" . $id . "' AND Status = '1'");
             $i = 0;
             foreach($query->result() as $row)
             {
@@ -102,6 +102,17 @@ require_once "./application/classes/Wish.php";
             $data = array(
                'WishHelper' => $wishHelper,
                'Status' => '1'
+            );
+            $this->db->where('WishID', $wishId);
+            $this->db->update('Wishes', $data); 
+        }
+
+        // confirms a wish
+        // status changed to 1
+        public function confirm($wishId)
+        {
+            $data = array(
+               'Status' => '2'
             );
             $this->db->where('WishID', $wishId);
             $this->db->update('Wishes', $data); 
