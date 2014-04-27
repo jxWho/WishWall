@@ -106,6 +106,17 @@ require_once "./application/classes/Wish.php";
             $this->db->where('WishID', $wishId);
             $this->db->update('Wishes', $data); 
         }
+
+        // confirms a wish
+        // status changed to 1
+        public function confirm($wishId)
+        {
+            $data = array(
+               'Status' => '1'
+            );
+            $this->db->where('WishID', $wishId);
+            $this->db->update('Wishes', $data); 
+        }
     }
 
 ?>
