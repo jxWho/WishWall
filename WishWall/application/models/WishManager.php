@@ -112,7 +112,7 @@ require_once "./application/classes/Wish.php";
         public function confirm($wishId)
         {
             $data = array(
-               'Status' => '1'
+               'Status' => '2'
             );
             $this->db->where('WishID', $wishId);
             $this->db->update('Wishes', $data); 
