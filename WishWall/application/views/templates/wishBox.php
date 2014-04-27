@@ -1,13 +1,14 @@
 <div class="wishbox" >
     <input name="wishId" style="display: none;" value="<?php echo $wish->wishId ?>"/>
     <h3><?php echo $wish->wishMaker ?></h3>
-    <h3><?php echo $wish->titie ?></h3>
-    <p>
-        <?php echo $wish->description ?>
-    </p>
+    <h3><?php echo $wish->title ?></h3>
     <button name="showWishDetails">↓</button>
     <div name="wishDetails" style="display: none">
-        <p><?php echo $wish->date ?></p>
+         <p>
+            <?php echo $wish->description ?>
+        </p>
+        <p>Created: <?php echo $wish->date ?>-------->
+        Expires: <?php echo $wish->expDate ?></p>
         <?php
             // display help button only if the user is not the helper nor the maker
             if($wish->wishMaker != $_SESSION['userName'] && $wish->wishHelper != $_SESSION['userName'])// 2 as an example
@@ -82,6 +83,7 @@
                 '<input class="redbutton" type="submit" name="CF" value="Confirm">';
             echo $input1;
             echo $input2;
+            echo $input3;
             echo $submitB;
             echo "</form>";
             echo "</div>";

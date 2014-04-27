@@ -142,5 +142,24 @@
             }
         }
 
+        public function changeContribution( $uid, $addend=1 )
+        {
+           $query = $this->db->select('Contribution');
+           $conditions = array(
+               'UserID' => $uid
+           );
+           $query = $this->db->get_where('Users', $conditions);
+           $p = $query->first_row();
+           $oldContribution = $p->Contribution;
+           $newContribution = $oldContribution + $addend;
+           $data = array(
+               "Contribution" => $newContribution
+           );
+
+           $query = $this->db->where('UserID', $uid);
+           $result = $this->db->update('Users', $data);
+           return $result;
+        }
+
     }
 ?>

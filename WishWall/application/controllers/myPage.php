@@ -90,6 +90,9 @@
             $wid = $this->input->post('WishID');
             $hid = $this->input->post('HelperID');
             $WM = WishManager::getInstance();
+            $UM = UserManager::getUserManager();
+            $WM->confirm($wid);
+            $re = $UM->changeContribution($hid);
         }
     }
 ?>
