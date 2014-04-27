@@ -4,13 +4,22 @@
         <hr>
         <?php
             foreach($links as $l){
-                $temp = "<div>";
-                $temp .= "<a href='".$l[0]."'>".$l[1].'</a>';
-                $temp .= "</div>";
+                $temp = "<a href='".$l[0]."'>";
+                $temp .= "<div class='redbutton'>";
+                $temp .= "<span>".$l[1]."</span>";
+                $temp .= "</div></a>";
                 echo $temp;
-                echo '<hr>';
             }
         ?>
+            <?php
+               $this->load->helper('url');
+                echo "<a href='".site_url('WishWall/wall')."'>";
+
+            ?>
+        <div class='redbutton'>
+            <span>Wish Wall</span>
+        </div>
+        <?php echo "</a>" ?>
     </div>
 
 

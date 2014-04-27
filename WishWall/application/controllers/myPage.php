@@ -77,11 +77,19 @@
             $data['links'] = $links;
 
             $this->load->view('templates/header', $data);
-            $this->load->view('logInPages/logout');
             $this->load->view('templates/navigator', $data);
             $this->load->view('templates/mainContent', $data);
             $this->load->view('templates/profile');
             $this->load->view('templates/footer', $data);
+        }
+
+        public function confirmWish()
+        {
+            $this->load->helper('form');
+            $uid = $this->input->post('UserID');
+            $wid = $this->input->post('WishID');
+            $hid = $this->input->post('HelperID');
+            $WM = WishManager::getInstance();
         }
     }
 ?>

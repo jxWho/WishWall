@@ -28,6 +28,7 @@
 
         <button name="hideWishDetails">↑</button>
     </div>
+    <div></div>
 
     <div class="helperLink" >
     <?php
@@ -63,5 +64,28 @@
         }
     ?>
     </div>
+
+    <?php
+        $helpOrmake = $this->input->get('help', 0);
+        $blockFather = '<div class="confirmLink">';
+        if( $helpOrmake == 0 ){
+            echo $blockFather;
+            $this->load->helper('form');
+            echo form_open('MyPage/confirmWish');
+            $input1 =
+            "<input class='ci' type='input' name='UserID' value='$wishCard->wishMaker'>";
+            $input2 =
+                "<input class='ci' type='input' name='WishID' value='$wishCard->wishId'>";
+            $input3 =
+                "<input class='ci' type='input' name='HelperID' value='$wishCard->wishHelper'>";
+            $submitB =
+                '<input class="redbutton" type="submit" name="CF" value="Confirm">';
+            echo $input1;
+            echo $input2;
+            echo $submitB;
+            echo "</form>";
+            echo "</div>";
+        }
+    ?>
 </div>
-<hr>
+<hr class="clear">
