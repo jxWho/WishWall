@@ -202,3 +202,53 @@ DEBUG - 2014-04-27 21:03:58 --> File loaded: application/views/templates/profile
 DEBUG - 2014-04-27 21:03:58 --> File loaded: application/views/templates/footer.php
 DEBUG - 2014-04-27 21:03:58 --> Final output sent to browser
 DEBUG - 2014-04-27 21:03:58 --> Total execution time: 0.0309
+DEBUG - 2014-04-27 21:04:45 --> Config Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Hooks Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 21:04:45 --> URI Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Router Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Output Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Security Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Input Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 21:04:45 --> Language Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Loader Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Controller Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Model Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Model Class Initialized
+DEBUG - 2014-04-27 21:04:45 --> Database Driver Class Initialized
+ERROR - 2014-04-27 21:04:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2014-04-27 21:04:45 --> Severity: Warning  --> mysql_pconnect(): Access denied for user 'root'@'localhost' (using password: NO) /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+ERROR - 2014-04-27 21:04:45 --> Unable to connect to the database
+DEBUG - 2014-04-27 21:04:45 --> Language file loaded: language/english/db_lang.php
+DEBUG - 2014-04-27 21:05:09 --> Config Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Hooks Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Utf8 Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> UTF-8 Support Enabled
+DEBUG - 2014-04-27 21:05:09 --> URI Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Router Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Output Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Security Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Input Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-04-27 21:05:09 --> Language Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Loader Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Controller Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Model Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Model Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Database Driver Class Initialized
+ERROR - 2014-04-27 21:05:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /Applications/MAMP/htdocs/WishWall/WishWall/system/database/drivers/mysql/mysql_driver.php 91
+DEBUG - 2014-04-27 21:05:09 --> Model Class Initialized
+DEBUG - 2014-04-27 21:05:09 --> Helper loaded: url_helper
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/header.php
+DEBUG - 2014-04-27 21:05:09 --> Helper loaded: form_helper
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/logInPages/logout.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/navigator.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/userInformationCard.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/wishBox.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/mainContent.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/profile.php
+DEBUG - 2014-04-27 21:05:09 --> File loaded: application/views/templates/footer.php
+DEBUG - 2014-04-27 21:05:09 --> Final output sent to browser
+DEBUG - 2014-04-27 21:05:09 --> Total execution time: 0.0364
