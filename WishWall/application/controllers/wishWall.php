@@ -17,7 +17,7 @@ class WishWall extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	private $wishManager;
+	private $wishManager, $userManager;
 	public function __construct()
 	{
 		parent::__construct();
@@ -38,7 +38,7 @@ class WishWall extends CI_Controller {
 	    $this->db->where('Status', '0');
 	    $this->db->from('Wishes');
 	    $config['total_rows'] = $this->db->count_all_results();
-	    $config['per_page'] = 3;
+	    $config['per_page'] = 10;
 	    $config['uri_segment'] = 3;
 
 	    $this->pagination->initialize($config);
@@ -76,7 +76,7 @@ class WishWall extends CI_Controller {
 
 		// enter data
 		$wishManager = WishManager::getInstance();
-		$wishManager->createNewWish($title, 1, $description, $expDate);
+		$wishManager->createNewWish($title, $_SESSION['UID'], $description, $expDate);
 
 		// refresh the wish wall
 		Header("Location:" . site_url() . '/Wishwall/wall');

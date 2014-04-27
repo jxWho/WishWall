@@ -1,5 +1,5 @@
 <?php
-include "./application/classes/Wish.php";
+require_once "./application/classes/Wish.php";
     // singleton
     class WishManager extends CI_Model
     {
