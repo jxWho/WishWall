@@ -93,6 +93,8 @@
             $UM = UserManager::getUserManager();
             $WM->confirm($wid);
             $re = $UM->changeContribution($hid);
+            $this->load->helper('url');
+            redirect(site_url('MyPage/view'));
         }
     }
 ?>
