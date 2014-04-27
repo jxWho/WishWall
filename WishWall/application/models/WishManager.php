@@ -64,9 +64,9 @@ require_once "./application/classes/Wish.php";
             $wishes = array();
             // build query
             if($role == "wishMaker")
-                $query = $this->db->query("SELECT * FROM Wishes WHERE WishMaker = '" . $id . "' ");
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishMaker = '" . $id . "' AND Status = '1'");
             if($role == "wishHelper")
-                $query = $this->db->query("SELECT * FROM Wishes WHERE WishHelper = '" . $id . "' ");
+                $query = $this->db->query("SELECT * FROM Wishes WHERE WishHelper = '" . $id . "' AND Status = '1'");
             $i = 0;
             foreach($query->result() as $row)
             {
