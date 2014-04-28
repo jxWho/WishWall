@@ -28,6 +28,10 @@ class WishWall extends CI_Controller {
 	}
 	public function wall()
 	{
+        $this->load->helper('url');
+        if( !isset($_SESSION['UID']) ){
+            redirect(site_url('LogIn'));
+        }
 		// prepare data sent to wish wall
 		$wishManager = WishManager::getInstance();
 

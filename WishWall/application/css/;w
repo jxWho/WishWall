@@ -221,23 +221,11 @@ a:link{
   padding-top: 7px;
 }
 
-.RegisterClass{
+.formClass{
   margin: 0 auto;
-  margin-left: 180px;
-  width: 250px;
+  margin-left: 100px;
 }
 
-.RegisterClass input{
+.formClass input{
   margin-top: 5px;
-  width: 100px;
-  min-width:100px;
-  float: right;
-  margin-right: 0px;
-}
-.RegisterClass label{
-  margin-top: 5px;
-  display:inline-block;
-}
-.RegisterClass .necessary{
-  background-color: pink;
 }
